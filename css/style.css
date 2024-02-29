@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #3595d1;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 10px;
+  font-weight: bold;
+  border: 1px solid #3595d1;
+}
+
+.save-btn {
+  background: #3595d1;
+  color: white;
+}
+
+#delete-all-btn {
+  background: white;
+  color: #3595d1;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  position: relative;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid darkgray;
+  padding: 15px;
+}
+
+a {
+  color: #3595d1;
+}
+
+.delete-item-btn {
+  position: absolute;
+  bottom: 22%;
+  right: 0;
+
+  background-color: transparent;
+  color: gray;
+  border-radius: 50%;
+  font-weight: 100;
+  padding: 5px 10px;
+}
